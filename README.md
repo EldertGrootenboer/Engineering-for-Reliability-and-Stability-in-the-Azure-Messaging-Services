@@ -1,9 +1,9 @@
-# Engineering for Performance and Scalability on Azure Service Bus
+# Engineering for Reliability and Stability in the Azure Messaging Services
 
-As cloud-native architectures continue to evolve, messaging systems like Azure Service Bus are playing an increasingly critical role in enabling scalable, reliable communication between distributed components. But with scale comes complexity, and ensuring optimal performance isn’t always straightforward.
+Anything that can go wrong will go wrong at some point, so it is best to come prepared. Whether you are in the cloud or running your own data center, there is always a risk of power outages, hardware failures, natural disasters, or other unexpected events. These can be especially impactful for critical components in your architecture, such as your message broker. In this session, we explore capabilities that enhance the reliability and stability of Azure Messaging services, specifically Service Bus and Event Hubs.
 
-In this session, we will explore the real-world challenges of tuning Azure Service Bus for high performance and throughput. We start by identifying common bottlenecks and architectural pitfalls, then walk through practical strategies to overcome them. You will gain a clear understanding of how to reduce latency, improve message throughput, and build systems that scale with confidence.
+We first look at high-availability options provided by Azure, including transient error handling and Availability Zones, which offer a solid foundation for building reliable workloads. Furthermore, we also examine advanced features that provide additional resilience in unexpected situations, such as Geo-Replication.
 
-Moreover, there will also be highlights of recently released and upcoming features in Azure Service Bus that are built specifically to enhance performance and scalability. From message batching and concurrent processing to advanced configuration patterns, you’ll learn how to make the most of what Service Bus offers.
+Our recommendations are not limited to the platform itself. We also cover improvements you can implement when building and hosting applications, including retry and exception handling, and the various hosting models available for clients.
 
-Whether you're building new solutions or optimizing existing ones, this session will provide you with actionable insights and proven techniques. Join us to discover how to unlock the full potential of Azure Service Bus and deliver high-performance, scalable solutions in the cloud.
+By attending this session, you will learn practical tips and guidelines directly from the Azure Messaging product group, helping you prepare for unplanned events and maintain confidence in the reliability of your systems.
